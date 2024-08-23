@@ -2,7 +2,7 @@
 
 
 
-_Number 1: Batch file download from Google Sheets_
+_**Number 1: Batch file download from Google Sheets**_
 
 1. Ensure libraries pandas + requests + gspread + oauth2client are installed
 
