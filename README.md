@@ -1,6 +1,7 @@
 # Abram's Collection of Useful Python Scripts
 
 
+______________________________________________________________________________________________________
 
 _**Number 1: Batch file download from Google Sheets**_
 
@@ -40,7 +41,7 @@ _**Number 1: Batch file download from Google Sheets**_
 
     // python3 download_batch.py
 
-
+______________________________________________________________________________________________________
 
 _**Number 2: Batch file conversion from .pdf to .xml, for bulk stamping**_
 
