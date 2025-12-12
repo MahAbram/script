@@ -41,3 +41,32 @@ _**Number 1: Batch file download from Google Sheets**_
     // python3 download_batch.py
 
 
+
+_**Number 2: Batch file conversion from .pdf to .xml, for bulk stamping**_
+
+1. Pre-process .pdf files to ensure file structure is legible
+
+2. Determine .xml file schema (in this case using LHDN pre-determined file schema)
+
+3. Use OCR via Pytesseract to extract details from .pdf
+
+4. Key for OCR is IC number via 12-digit structure, and key between .csv and .pdf is full name (with no spaces) 
+
+5. Retagging state number using LHDN dictionary
+
+6. Ensure .csv file is also structured correctly, with 'Name', 'Email', and 'Primary Phone'
+
+7. In script, replace the following fields
+
+   // 'INPUT_PDF' = name of input .pdf
+
+   // 'CSV_FILE_PATH' = name of input .csv
+
+   // 'OUTPUT_FOLDER' = name of output folder
+
+8. Remember to add to correct destination as usual
+
+9. Run the script
+
+   // python3 batch_pdf2xml_conversion.py
+
